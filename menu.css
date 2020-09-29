@@ -1,0 +1,160 @@
+*{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    font-family: Inter,sans-serif!important;
+}
+ html{
+    box-sizing: border-box;
+ }
+header{
+    background-color: #2a2a2a;
+    height: 60px;
+}
+#conteudo {
+    height: 900px;
+
+}
+#rodape{
+    height: 50px;
+    background-color: #2a2a2a;
+    height: 130px;
+}
+#menu{
+    
+    margin: 0 auto;
+    width: 269px;
+  
+}
+#img{
+    width: 100%;
+}
+
+#conteudo{
+
+    height: auto;
+    margin: 0 auto;
+    width: 80%;
+    
+
+}
+h1{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.25;
+    color: rgba(0,0,0,.8);
+    margin-bottom: 40px;
+}
+p{
+    display: block;
+    color: #868796;
+    margin: 0 0 10px 0;
+    padding: 0 0 16px 0;
+    font-size: 12px;
+    line-height: 19px;
+    
+}
+#btn{
+    
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    height: 50px;
+}
+#button{
+    vertical-align: middle;
+    display: table-cell;
+    text-align: center;
+    border-radius: 3px;
+    margin:  0 auto;
+    width: 5%;
+    height: 40px;
+    font-size: 18px;
+    border-color: #009ee3;
+    background-color: #009ee3;
+    color: #fff;
+}
+button#buttonC{
+    background-color: navy;
+}
+
+span.nome{
+    font-size: 14px;
+    font-style: oblique;
+}
+.comentarios{
+    border-radius: 5px;
+    padding:10px;
+    background-color: rgb(245, 245, 245);
+}
+img#star{
+    width: 14px;
+}
+#whatsapp{
+    margin:  0 auto;
+    
+    height: 40px;
+  
+}
+img#imgw{
+    width: 10px;
+}
+a.numero{
+    text-decoration: none;
+    color: aquamarine;
+}
+a#n{
+    color:#000000;
+}
+a#btncomprara{
+    color:#fff;
+}
+span#numeroN{
+    font-size: 12px;
+}
+img#banner{
+    display: block;
+    margin: 0 auto;
+}
+iframe.videos{
+    display: block;
+    margin: 0 auto;
+}
+#formulario{
+  
+}
+input.inputsd{
+    outline: 0;
+    width: 90%;
+    height: 40px;
+    font-size: 18px;
+    border: solid 1px rgb(146, 146, 146);
+    background-color: #fbffbd;
+    color: rgb(0, 0, 0);
+    display: block;
+    margin: 0 auto;
+}
+#comentar{
+    width: 90%;
+    height: 40px;
+    font-size: 18px;
+    border:none;
+    border-radius: 5px;
+    background-color: #009ee3;
+    color: #fff;
+    display: block;
+    outline: 0;
+    margin: 0 auto;
+}
+
+
+
+
+@media only screen and (max-width: 799px) {
+   img#banner{
+       width: 100%;
+   }
+   iframe.videos{
+       width: 100%;
+   }
+  }
